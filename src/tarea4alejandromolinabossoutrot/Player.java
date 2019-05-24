@@ -11,16 +11,16 @@ package tarea4alejandromolinabossoutrot;
  */
 public class Player {
     
-    private char nombre;
+    private String nombre;
     private int vidas;
     
      public Player() {
-        this.nombre = 'Z';
+        this.nombre = "sin_nombre";
         this.vidas = 10;
      
     }
 
-	public Player(char nombre,int vidas) {
+	public Player(String nombre,int vidas) {
         this.nombre = nombre;
         this.vidas = vidas;
      
