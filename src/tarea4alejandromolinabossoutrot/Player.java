@@ -15,7 +15,7 @@ public class Player {
     private int vidas;
     
      public Player() {
-        this.nombre = sin_nombre;
+        this.nombre = 'Z';
         this.vidas = 10;
      
     }
